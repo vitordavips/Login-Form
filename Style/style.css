@@ -1,0 +1,57 @@
+
+body{
+    background-color:#191816 ;
+    margin: 0;
+}
+
+main{
+    display: flex;
+}
+
+#divConteudo{
+    display: flex;
+    background-color:#24221f ;
+    text-align: center;
+    width: 36%;
+    height: 40%;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+
+#img_carro{
+    width: 80%;
+    height: 43em;
+}
+
+#img_logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 11px;
+}
+
+#divConteudo{
+    color:  #afb6c2;
+}
+
+#
+
+.registro{
+    display: flex;
+    margin-left: 90px;
+}
+
+.registro>a{
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+a{
+    color: #ffc632;
+}
+
+button{
+    background-color: #ffc632;
+    width: 110px;
+    height: 50px;
+}
