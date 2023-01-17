@@ -9,14 +9,13 @@ main{
 }
 
 #divConteudo{
-    display: flex;
     background-color:#24221f ;
     text-align: center;
-    width: 36%;
-    height: 40%;
+    width: 55%;
     border-radius: 20px;
     margin-top: 200px;
     margin-right: 20px;
+    margin-bottom: 55px;
 }
 
 #img_carro{
@@ -34,7 +33,7 @@ main{
     color:  #afb6c2;
 }
 
-#
+
 
 .registro{
     display: flex;
@@ -54,4 +53,12 @@ button{
     background-color: #ffc632;
     width: 110px;
     height: 50px;
+}
+
+#e-mail{
+    background-image: url("/img/mail.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
 }
