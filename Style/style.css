@@ -9,7 +9,10 @@ main{
 }
 
 #divConteudo{
-    background-color:#24221f ;
+    background-color:#24221f;
+    color:  #afb6c2;
+    font-family: Roboto;
+    font-weight: 500;
     text-align: center;
     width: 55%;
     border-radius: 20px;
@@ -29,20 +32,53 @@ main{
     margin-left: 11px;
 }
 
-#divConteudo{
-    color:  #afb6c2;
+.email{
+    display: flex;
+    flex-direction: column;   
+    margin-bottom: 10px;
 }
 
+.email>label{
+    margin-right: 225px;
+}
 
+.email>input{
+    width: 40%;
+    margin-left: 26%;
+}
+
+.senha{
+display: flex;
+flex-direction: column;
+}
+
+.senha>label{
+    margin-right: 225px;
+}
+
+.senha>input{
+    width: 40%;
+    margin-left: 26%;
+}
+
+.facaSeulogin{
+    display: flex;
+    margin-left: 30%;
+}
+
+.facaSeulogin>img{
+    margin-right: 10px;
+}
 
 .registro{
     display: flex;
-    margin-left: 90px;
+    margin-left: 26%;
+    margin-bottom: 7px;
 }
 
 .registro>a{
     margin-top: 14px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 a{
@@ -61,4 +97,28 @@ button{
     background-position: left;
     background-size: 1.3em;
     padding-left: 1.3em;
+}
+
+#senha{
+    background-image: url("/img/lock.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+}
+
+#e-mail:focus-within{
+    border-color: #ffc632;
+    background-image: url("/img/mail-focus.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+}
+
+#senha:focus{
+    background-image: url("/img/lock-focus.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    
 }
