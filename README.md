@@ -3,7 +3,7 @@
 <p>O projeto foi feito para o usuário fazer o seu login com E-mail e Senha.</p>
 
 ## Pré-requisitos
-<p>Antes de começar a rodar o programa, você precisa ter instalado em sua máquina as seguintes ferramentas <a src="https://git-scm.com/downloads">GIT</a>, <a src="https://desktop.github.com/">GitHub Desktop</a>, além disso é bom ter um editor para trabalhar o código, recomendo o <a src="https://code.visualstudio.com/download">VSCode</a>.
+<p>Antes de começar a rodar o programa, você precisa ter instalado em sua máquina as seguintes ferramentas <a href="https://git-scm.com/downloads">GIT</a>, <a src="https://desktop.github.com/">GitHub Desktop</a>, além disso é bom ter um editor para trabalhar o código, recomendo o <a href="https://code.visualstudio.com/download">VSCode</a>.
 </p>
 
 ## Tecnologias
