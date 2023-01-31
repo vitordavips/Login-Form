@@ -87,6 +87,7 @@ a{
 
 button{
     background-color: #ffc632;
+    cursor: pointer;
     width: 110px;
     height: 50px;
 }
