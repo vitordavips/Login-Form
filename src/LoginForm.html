@@ -19,12 +19,13 @@
                 <div class="facaSeulogin">
                     <img src="../img/log-in.svg" alt="">
                     <h1>Faça seu Login</h1>
+                    <div id="msgEmail"></div>
                 </div>
                 <p>Entre com suas informações de cadastro.</p>
                 <form action="">
                     <div class="email">
                         <label for="E-mail">E-mail</label>
-                        <input type="email" name="E-mail" id="e-mail">
+                        <input type="email" name="E-mail" onblur="validacaoEmail(f1.email)" id="e-mail">
                     </div>
 
                     <div class="senha">
