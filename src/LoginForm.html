@@ -22,26 +22,32 @@
                     <div id="msgEmail"></div>
                 </div>
                 <p>Entre com suas informações de cadastro.</p>
-                <form action="">
+                <form autocomplete="off">
                     <div class="email">
-                        <label for="E-mail">E-mail</label>
-                        <input type="email" name="E-mail" onblur="validacaoEmail(f1.email)" id="e-mail">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="E-mail" placeholder="Digite o seu email" id="email">
+                        <small id="textEmail"></small>
                     </div>
 
-                    <div class="senha">
-                        <label for="Senha">Senha</label>
-                        <input type="password" name="senha" id="senha">
+                    <div class="password">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" placeholder="Digite a sua senha"  id="password">
+                        <small id="textPassword"></small>
                     </div>
+
+                    <div class="registro">
+                        <input type="checkbox" value="">
+                        <p>lembre-me</p>
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+                        <button type="submit">ENTRAR</button>
+                        <p>Não tem uma conta? <a href="#">Registra-se</a></p>
+                    </div>
+                    <small id="textForm"></small>
                 </form>
-                <div class="registro">
-                    <input type="checkbox" value="">
-                    <p>lembre-me</p>
-                    <a href="#">Esqueci minha senha</a>
-                </div>
-                <button>ENTRAR</button>
-                <p>Não tem uma conta? <a href="#">Registra-se</a></p>
-            </div>
+             
             <img id="img_carro" src="../img/side-image-2x.jpg" alt="">
     </main> 
+    <script src="index.js"></script>
 </body>
 </html>

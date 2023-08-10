@@ -47,16 +47,16 @@ main{
     margin-left: 26%;
 }
 
-.senha{
+.password{
 display: flex;
 flex-direction: column;
 }
 
-.senha>label{
+.password>label{
     margin-right: 225px;
 }
 
-.senha>input{
+.password>input{
     width: 40%;
     margin-left: 26%;
 }
@@ -92,7 +92,7 @@ button{
     height: 50px;
 }
 
-#e-mail{
+#email{
     background-image: url("/img/mail.svg");
     background-repeat: no-repeat;
     background-position: left;
@@ -100,7 +100,7 @@ button{
     padding-left: 1.3em;
 }
 
-#senha{
+#password{
     background-image: url("/img/lock.svg");
     background-repeat: no-repeat;
     background-position: left;
@@ -108,7 +108,7 @@ button{
     padding-left: 1.3em;
 }
 
-#e-mail:focus-within{
+#email:focus-within{
     border-color: #ffc632;
     background-image: url("/img/mail-focus.svg");
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ button{
     background-size: 1.3em;
 }
 
-#senha:focus{
+#password:focus{
     background-image: url("/img/lock-focus.svg");
     background-repeat: no-repeat;
     background-position: left;
