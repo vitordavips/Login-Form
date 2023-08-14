@@ -1,0 +1,11 @@
+{
+  "name": "login-form",
+  "version": "1.0.0",
+  "description": "<p>O projeto foi feito para o usuário fazer o seu login com E-mail e Senha.</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
